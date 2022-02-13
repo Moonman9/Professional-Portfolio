@@ -1,0 +1,69 @@
+/*universial elements*/
+/*
+Chalkduster, fantasy
+Snell Roundhand, cursive
+*/
+/*fills webpage*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Chalkduster, fantasy;
+    color: whit;
+}
+
+/*header design*/
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(../images/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+header h1 a {
+    font-weight: bold;
+    font-family: Chalkduster, fantasy;
+    font-size: 40px;
+    color: goldenrod;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white; */
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+header nav {
+    margin: 5px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+header nav ul li a {
+    padding: 10px 30px;
+    font-weight: lighter;
+    font-size: 1vw;
+
+}
+header nav ul li a:hover {
+    background: goldenrod;
+    color: black;
+    padding: 0px 15px;
+}
+
