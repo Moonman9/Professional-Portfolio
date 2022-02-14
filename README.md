@@ -31,10 +31,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ```
 ## Screenshots
 
-! [ss1.png](./assets/images/ss1.png)
-! [ss2.png](./assets/images/ss2.png)
-! [ss3.png](./assets/images/ss3.png)
-! [ss4.png](./assets/images/ss4.png)
+![ss1.png](./assets/images/ss1.png)
+![ss2.png](./assets/images/ss2.png)
+![ss3.png](./assets/images/ss3.png)
+![ss4.png](./assets/images/ss4.png)
 
 ## Licensing
 

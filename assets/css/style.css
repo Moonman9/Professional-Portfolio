@@ -101,6 +101,7 @@ footer {
     justify-content: space-between;
     min-height: 600px;
     position: relative;
+    width:100%;
 }
 /* hero quote*/
 div.quote {
@@ -120,6 +121,7 @@ div.quote {
     justify-content: space-between;
     min-height: 600px;
     position: relative;
+    width:100%;
 }
 .box {
     background-color: rgba(0,0,0,0.8);
@@ -148,6 +150,7 @@ div.quote {
     justify-content: space-between;
     min-height: 600px;
     position: relative;
+    width:100%;
 }
 .site {
     margin: 20px;
@@ -200,6 +203,7 @@ div.quote {
     justify-content: space-between;
     min-height: 600px;
     position: relative;
+    width:100%;
 }
 .icon {
     max-width: 50px;
