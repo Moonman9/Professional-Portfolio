@@ -14,7 +14,13 @@ body {
     font-family: Chalkduster, fantasy;
     color: white;
 }
-
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: goldenrod;
+}
 /*header design*/
 
 header {
@@ -130,6 +136,57 @@ div.quote {
     font-size: 25px;
     color: white;
 }
+/* Designs */
+.designs {
+    background-image: url(../images/astronaut.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 600px;
+    position: relative;
+}
+.site {
+    margin: 20px;
+    background: black;
+    flex: 1;
+    border-color: goldenrod;
+    border-style: solid;
+    border-radius: 15px;
+}
+.site:hover {
+    background: rgba(0,0,0,0.6);
+    color: goldenrod;
+    border: 2px solid white;
+}
+.websites {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.site img {
+    width: 100%;
+    border-radius: 15px;
+}
+.site-bio {
+    padding: 25px;
+}
+.site-bio h3{
+    font-size: 28px;
+    line-height: 1.3;
+}
+.site-bio h4 {
+    font-weight: lighter;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
 /* contact */
 
 .connect {
@@ -144,7 +201,19 @@ div.quote {
     min-height: 600px;
     position: relative;
 }
-
+.icon {
+    max-width: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    position: absolute;
+}
+.icon:hover {
+    zoom: 150%;
+}
+.click {
+    padding: 40px;
+}
 /* id elements*/
 #quote {
     font-family: Snell Roundhand, cursive;
